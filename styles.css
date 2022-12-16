@@ -1,0 +1,156 @@
+
+
+body {
+    font-family: Hanken Grotesk, sans-serif;
+    margin: auto;
+    text-align: center;
+    font-family: 'Hanken', sans-serif;
+    display: inline;
+
+
+    }
+
+
+    
+    #hero {
+        color: white;
+        background-image: url("images/Portland-strawberries.png");
+        background-size: cover;
+        padding: 150px 0 40px 0;
+        text-shadow: 20px 20px 5 black;
+        text-align: center;
+        font-weight: bold;
+        height: 375px;
+        
+    }
+    h1, h2 {
+        text-shadow: 2px 2px 1px rgba(0, 0, 0, .8);
+    }
+    #main-logo {
+        width: 100px;
+}
+
+
+
+.caption {
+    display: block;
+}
+
+img {
+    width: 100px;
+}
+.activities {
+    display: block;
+    text-align: center;
+    align-items: center;
+    background-color: #FBF9EBff;
+    padding: 50px;
+    
+    
+    
+
+}
+
+figure {
+
+    padding: 10px 10px;
+    width: 100%;
+    margin: 0px;
+}
+
+.figure-div {
+    display: block; 
+    width: 100%; 
+    column-count: 3; 
+    overflow-x: scroll;
+
+}
+
+.content-header-div {
+    padding-top: 10px;
+}
+
+.content-header-div h2 {
+    text-shadow: none;
+}
+
+.content-figures-div {
+    display: block; 
+    width: 100%; 
+    column-count: 3; 
+    overflow-x: scroll;
+}
+
+#crate {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 6px solid rgb(85, 4, 4);
+    margin-bottom: 10px;
+    text-align: center;
+    
+}
+
+#festival {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 6px solid rgb(85, 4, 4);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#museum {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 6px solid rgb(85, 4, 4);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.crate-gif {
+    background-image: url("images/Portland-strawberries.png");
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+}
+
+.festival-gif {
+    /*background-image: url("images/Portland-strawberries.png");*/
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+}
+
+
+
+.crate-gif:hover {
+    background-image: url("images/giphy.gif");
+
+}
+
+.card {
+    width: 300px;
+    height: 370px;
+    margin: 30px auto;
+    padding: 30px;
+    display: block;
+    justify-content: space-evenly;
+    text-align: center;
+    background:#e5e7eb;
+    color: #2a292c;
+    border: 6px solid rgb(85, 4, 4);
+    border-radius: 40px;
+    
+}
+
+#pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#guide {
+    text-shadow: none;
+}
